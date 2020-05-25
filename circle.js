@@ -1,8 +1,6 @@
-let r = +prompt("enter the radius");
-let result;
-
-function area() {
-    result = 3.14 * r * r;
-    console.log(result);
+function area(r) {
+    let result = 3.14 * r * r;
     return result;
 }
+
+module.exports = area;
